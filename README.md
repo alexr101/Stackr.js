@@ -8,20 +8,43 @@ to the initializer or directly to some methods.
 
 Example:
 var array = [1, 2, 3, 4, 5, 6];
-//Initialize Stackr
+Initialize Stackr <br/>
 var stack = Stackr(array);
 
 Because you passed an array any array modifying methods will use this array by default. You can override this by adding
 a different array as a parameter.
 
-updateArr: function(array)
+# Methods
 
-//Gets the top positioned element of the Stack
-getTop: function(array)
+**updateArr: function(array)**<br/>
 
-//Returns the elements of the array in reverse order
-getReverse: function(array)
+Update or setup the default array for function operations in the Stackr object
 
-//Reverses the elements of the array
-reverse: function(array){
+**Array**(required) - This array will be set as the default array for the Stackr object
+
+---------
+
+**getTop: function(array)**<br/>
+
+Gets the top positioned element of the Stack. Default array will be used if no parameter is provided. <br/>
+
+**Array**(optional) - If passed, its top positioned element will be returned
+
+----------------
+
+**getReverse: function(array)**<br/>
+
+Returns a string with the elements of the array in reverse order. Default array will be used if no parameter is provided. <br/>
+
+**Array**(optional) - If passed, the elements of the array will be returned in reverse inside of a string.
+
+----------------
+
+**reverse: function(array)**<br/>
+
+Returns an array with reversed contents. Default array will be used if no parameter is provided. <br/>
+
+**Array**(optional)
+
+----------------
 
