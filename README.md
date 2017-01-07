@@ -16,7 +16,7 @@ a different array as a parameter.
 
 # Methods
 
-**updateArr: function(array)**<br/>
+**stackr.updateArr(array)**<br/>
 
 Update or setup the default array for function operations in the Stackr object
 
@@ -24,7 +24,7 @@ Update or setup the default array for function operations in the Stackr object
 
 ---------
 
-**getTop: function(array)**<br/>
+**stackr.getTop(array)**<br/>
 
 Gets the top positioned element of the Stack. Default array will be used if no parameter is provided. <br/>
 
@@ -32,7 +32,7 @@ Gets the top positioned element of the Stack. Default array will be used if no p
 
 ----------------
 
-**getReverse: function(array)**<br/>
+**stackr.getReverse(array)**<br/>
 
 Returns a string with the elements of the array in reverse order. Default array will be used if no parameter is provided. <br/>
 
@@ -40,7 +40,7 @@ Returns a string with the elements of the array in reverse order. Default array 
 
 ----------------
 
-**reverse: function(array)**<br/>
+**stackr.reverse(array)**<br/>
 
 Returns an array with reversed contents. Default array will be used if no parameter is provided. <br/>
 
