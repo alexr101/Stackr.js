@@ -23,7 +23,7 @@ a different array as a parameter in the methods below.
 
 Update or setup the default array for function operations in the Stackr object
 
-**Array**(required) - This array will be set as the default array for the Stackr object
+**Array**(optional) - This array will be set as the default array for the Stackr object
 
 ---------
 
