@@ -8,11 +8,14 @@ to the initializer or directly to some methods.
 
 Example:<br/>
 var array = [1, 2, 3, 4, 5, 6];<br/>
-Initialize Stackr <br/>
-**var stack = Stackr(array);**
 
-Because you passed an array any array modifying methods will use this array by default. You can override this by adding
-a different array as a parameter.
+//Initialize Stackr <br/>
+**var stack = Stackr(array);**//or
+
+Passing an array is optional.
+
+In this case because you put in an array all the modifying methods will use this array by default. You can override this by adding
+a different array as a parameter in the methods below.
 
 # Methods
 
