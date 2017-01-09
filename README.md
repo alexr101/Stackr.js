@@ -10,7 +10,7 @@ Example:<br/>
 var array = [1, 2, 3, 4, 5, 6];<br/>
 
 //Initialize Stackr <br/>
-**var stack = Stackr(array);**//or
+**var stack = Stackr(array);**
 
 Passing an array is optional.
 
