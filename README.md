@@ -6,10 +6,10 @@ A Javascript library that helps in treating arrays like stack data types.
 You need to create an array in javascript first. Once its setup you can pass this array as an argument
 to the initializer or directly to some methods.
 
-Example:
-var array = [1, 2, 3, 4, 5, 6];
+Example:<br/>
+var array = [1, 2, 3, 4, 5, 6];<br/>
 Initialize Stackr <br/>
-var stack = Stackr(array);
+**var stack = Stackr(array);**
 
 Because you passed an array any array modifying methods will use this array by default. You can override this by adding
 a different array as a parameter.
